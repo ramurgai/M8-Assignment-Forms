@@ -24,6 +24,6 @@ function validEntry() {
     inp.setCustomValidity("Input correct.")
   }
   else {
-    inp.setCustomValidity("Your input is not alphanumeric.")
+    inp.setCustomValidity("ERROR: Your input is not alphanumeric.")
   }
 }
