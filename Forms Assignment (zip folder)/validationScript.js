@@ -18,9 +18,8 @@ submit.addEventListener("click", validEntry);
 function validEntry() {
   let inp = document.getElementById("inputField")
 
-
   if (inp.validity.valueMissing) {
-    inp.setCustomValidity("Please input a value")
+    inp.setCustomValidity("Please input a value.")
   }
   else if ((/^[a-zA-Z0-9]+$/.test(inp.value))){
     inp.setCustomValidity("Input correct.")
