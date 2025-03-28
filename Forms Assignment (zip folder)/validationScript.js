@@ -13,7 +13,7 @@
 
 
 let submit = document.getElementById("submit")
-submit.addEventListener("click", validEntry);
+submit.addEventListener("click", validEntry)
 
 function validEntry() {
   let inp = document.getElementById("inputField")
